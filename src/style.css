@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'myFont';
+	src: url('./my-font.woff2') format('woff2'),
+		 url('./my-font.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+.hello{
+	font-size: 14px;
+	font-family: 'myFont';
+	color: red;
+	background: url('./icon.jpg');
+}
